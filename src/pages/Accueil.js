@@ -1,9 +1,12 @@
-import Nav from "../component/Nav";
+import Nav from "../component/Nav.js";
+import section from "../component/section.js";
 
-const Accueil = () => {
+const Accueil = () =>
+{
 
     return (
-        <Nav/>
+        <Nav />
+        <section/>
     )
 
 };
