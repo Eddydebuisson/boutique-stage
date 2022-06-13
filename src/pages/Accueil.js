@@ -1,12 +1,16 @@
-import Nav from "../component/Nav.js";
-import Nav from "../component/section.js;
+import Nav from ".././component/nav/Nav.js";
+import About from "../component/About/About.js";
+
 
 const Accueil = () =>
 {
 
     return (
-        <Nav />
-        <section />
+        <div>
+            <Nav />
+            <About />
+        </div>
+
     )
 
 };
