@@ -13,7 +13,7 @@ const Nav = () =>
     return (
         <>
             <nav className={navbar ? 'navbar active' : 'navbar'}>
-                <div className='navTop'></div>
+                <div className='navTop'><p className='pNav'>Livraison Offerte dès 55€ d'achat ! -10% sur toute la boutique code : bienvenue</p></div>
                 <div className='navCenter'>
                     <NavLink to="/" className='brand'><img src={Logo} /></NavLink>
                     <ul className='nav-links'>

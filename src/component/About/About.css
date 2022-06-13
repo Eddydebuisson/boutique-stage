@@ -9,13 +9,12 @@
 .header .about{
     -top: 10px;
     height: 500px;
-    width: 98%;
+    width: 97%;
     margin: auto;
     background-color: blueviolet;
 }
 section{
-    background-color: yellow;
     height: auto;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 210px;
 }
