@@ -1,0 +1,18 @@
+.top-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.img-shop{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-shop img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 181, 247);
+    
+}

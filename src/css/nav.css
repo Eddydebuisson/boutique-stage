@@ -9,6 +9,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     background-color: transparent;
@@ -48,7 +49,7 @@
   .right-item {
     position: relative;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     color: rgb(3, 3, 3);
     text-transform: uppercase;
     display: block;
