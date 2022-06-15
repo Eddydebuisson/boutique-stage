@@ -1,5 +1,5 @@
-import '../css/topitem.css'
-import lotus from '../assets/lotus.png'
+import './topitem.css'
+import lotus from '../../assets/lotus.png'
 
 const topItem = (props) =>{
 

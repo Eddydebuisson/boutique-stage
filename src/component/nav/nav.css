@@ -3,19 +3,44 @@
     margin: 0;
     box-sizing: border-box;
   }
- 
+ .pNav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 5px;
+ }
   .navbar {
+    display: block;
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
     background-color: transparent;
     transition: 1s;
     animation: slide_down 0.5s ease-out;
     z-index: 100;
+  }
+  .navTop{
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(136, 92, 136);
+  }
+  .navCenter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navBottom{
+    margin-top: -50px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(160, 17, 136);
+    z-index: 2;
   }
  
   @keyframes slide_down {
