@@ -22,6 +22,7 @@
     transition: 1s;
     animation: slide_down 0.5s ease-out;
     z-index: 100;
+    background-color: rgb(255, 255, 255);
   }
   .navTop{
     margin: 10px 0;
@@ -32,7 +33,7 @@
   .navCenter{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
   }
   .navBottom{
     margin-top: -50px;
