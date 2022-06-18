@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Koldby-DEMO;
+    src: url(../../font/Koldby-DEMO.otf);
+  }
 .header{
     display: flex;
     justify-content: center;
@@ -17,4 +20,7 @@ section{
     height: auto;
     width: 100%;
     margin-top: 210px;
+}
+p{
+    font-family: Koldby-DEMO;
 }
