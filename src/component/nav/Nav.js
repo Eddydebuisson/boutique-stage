@@ -1,5 +1,5 @@
 
-import './nav.css';
+import './Nav.css';
 import { slide as Menu } from 'react-burger-menu';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';

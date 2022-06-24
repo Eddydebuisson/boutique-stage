@@ -1,31 +1,37 @@
-import './Footer.css';
-import React from 'react';
+import logo from '../../assets/logo.png'
+import { NavLink } from 'react-router-dom';
+import './Footer.css'
+const Footer = () => {
 
-const Footer = () =>
-{
-    return (
-        <>
-            <footer className='footer'>
-                <div className='hr'></div>
-                <div className='navigationFooter'>
-                    <div className='left'>
-
-                    </div>
-                    <div className='center'>
-                        <div className='NavFooter'>
-                            <h5>Services</h5>
-                        </div>
-                        <div className='NavFooter'>
-                            <h5>Sociaux</h5>
-                        </div>
-                    </div>
-                    <div className='right'></div>
+        return(
+            <>
+            <div className="footer">
+             <NavLink to="/" className='brand'><img src={logo} /></NavLink>
+                <div className='service'>
+                    <div className='title'> Service </div>
+                    <NavLink to="/">bla bla bla</NavLink>
+                    <NavLink to="/">bla bla bla</NavLink>
+                    <NavLink to="/">bla bla bla</NavLink>
+                    <NavLink to="/">bla bla bla</NavLink>
                 </div>
-            </footer>
-
-        </>
-
-    )
+                <div className='societe'>
+                     <div className='title'> Société </div>
+                <NavLink to="/">bla bla bla</NavLink>
+                <NavLink to="/">bla bla bla</NavLink>
+                <NavLink to="/">bla bla bla</NavLink>
+                <NavLink to="/">bla bla bla</NavLink>
+                </div>
+                <div className='sociaux'>
+                      <div className='title'> Réseaux Sociaux </div>
+                    <NavLink to="/">facebook</NavLink>
+                    <NavLink to="/">twitter</NavLink>
+                    <NavLink to="/">snap</NavLink>
+                
+                </div>
+            </div>
+            </>
+            
+        )
 
 };
 

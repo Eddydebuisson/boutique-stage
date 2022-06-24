@@ -35,7 +35,7 @@
     transition: 1s;
     animation: slide_down 0.5s ease-out;
     z-index: 100;
-   
+    background-color: rgb(255, 255, 255);
   }
   .navTop{
     margin: 10px 0;
@@ -46,6 +46,7 @@
   .navCenter{
     display: flex;
     justify-content: space-between;
+
     font-weight: bolder;
     font-size: 14px;
     
@@ -92,7 +93,7 @@
   .right-item {
     position: relative;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     color: rgb(3, 3, 3);
     text-transform: uppercase;
     display: block;

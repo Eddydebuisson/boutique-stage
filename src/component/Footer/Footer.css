@@ -1,3 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer .title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer .service{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .societe{
+    display: flex;
+    flex-direction: column;
+}
+=======
 * {
     padding: 0;
     margin: 0;
@@ -46,4 +67,3 @@
     height: 250px;
     width: 15%;
   }
-  
