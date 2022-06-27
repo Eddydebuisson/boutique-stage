@@ -2,15 +2,16 @@ import "./Register.css"
 import { useState } from "react";
 import Axios from 'axios';
 
+
 function Register() {
-    const [name, setName] = useState("")
+    const [lastName, setLastName] = useState("")
     const [firstName, setFirstName] = useState("")
     const [email, setEmail] = useState("")
 
     const addUser = () => {
         Axios.post('http://localhost:3001/create', {
-            name: name, 
-            firstName: firstName,
+            lastname: lastName, 
+            firstname: firstName,
             email: email,
         }).then(() => {
             console.log("success");
@@ -20,10 +21,10 @@ function Register() {
     return (
         <div className="register">
             <div className="informationRegister">
-            <label>Name:</label>
+            <label>LastName:</label>
             <input type="text"
             onChange={(event) => {
-                setName(event.target.value);
+                setLastName(event.target.value);
             }}/>
             <label>FirstName:</label>
             <input type="text"
@@ -35,9 +36,11 @@ function Register() {
             onChange={(event) => {
                 setEmail(event.target.value);
             }}/>
-            <button>Register</button>
+            <button onClick={addUser}>Register</button>
+            <button className="registerButton">Show members</button>
             </div>
         </div>
+        
     )
 }
 
