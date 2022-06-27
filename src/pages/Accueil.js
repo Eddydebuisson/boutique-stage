@@ -22,14 +22,10 @@ const Accueil = () => {
             <img src={Mif}></img>
             <img src={Handmade}></img>
             <img src={Domicile}></img>
-        <div>
-            <Nav />
-            <About />
-            <About />
-            <Footer />
         </div>
         <div className="Nika-text">
           <p>  La plupart de mes créations sont toutes fabriquées par mes soins. Elles peuvent présenter des différences. Ce ne sont pas des défauts mais le gage de qualité d’un vrai travail fait main. Une partie des articles à un stock minimal mais la majorité des articles seront réalisés à la commande avec un délai minimum d'une semaine. Du Made In France et Made In “Fait Main”. Confectionné de façon artisanale avec des matières premières choisies avec attention dans le respect de l’environnement.</p>
+        <p> </p>
         </div>
         <Footer/>
         </>
