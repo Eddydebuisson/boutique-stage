@@ -3,14 +3,27 @@
     margin: 0;
     box-sizing: border-box;
   }
+  /* Font Logo */
+  @font-face {
+    font-family: Koldby-DEMO;
+    src: url(../../font/Koldby-DEMO.otf);
+  }
+  /* Font Title */
+  @font-face {
+    font-family:Floane-Bol ;
+    src: url(../../font/Floane-Bold.otf);
+  }
+
+ 
  .pNav{
   display: flex;
   justify-content: center;
   text-align: center;
   color: #fff;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 400;
   padding: 5px;
+  font-family: Koldby-DEMO;
  }
   .navbar {
     display: block;
@@ -18,7 +31,7 @@
     height: auto;
     position: fixed;
     top: 0;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: 1s;
     animation: slide_down 0.5s ease-out;
     z-index: 100;
@@ -33,6 +46,9 @@
   .navCenter{
     display: flex;
     justify-content: space-between;
+
+    font-weight: bolder;
+    font-size: 14px;
     
   }
   .navBottom{
@@ -63,6 +79,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* font-family: Floane-Bol; */
+    font-weight: 900;
   }
  
   nav ul.nav-links li {
