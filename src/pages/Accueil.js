@@ -1,5 +1,5 @@
 
-import Nav from "../component/nav/Nav";
+import Nav from "../component/Nav/Nav";
 import Footer from "../component/Footer/Footer";
 import TopItem from "../component/Top/TopItem";
 import About from "../component/About/About.js";
