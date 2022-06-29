@@ -19,7 +19,7 @@ const Nav = () =>
                     <ul className='nav-links'>
                         <li><NavLink to="/" className='link-item'>Accueil</NavLink></li>
                         <li><NavLink to="/" className='link-item'>Eco-Responsable</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>T-Shirt</NavLink></li>
+                        <li><NavLink to=".../pages/T-shirt/T-shirt.js" className='link-item'>T-Shirt</NavLink></li>
                         <li><NavLink to="/" className='link-item'>Pull</NavLink></li>
                         <li><NavLink to="/" className='link-item'>UNIVERS ENFANT</NavLink></li>
                         <li><NavLink to="/" className='link-item'>Accessoires</NavLink>
