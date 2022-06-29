@@ -4,6 +4,7 @@
     align-items: center;
     font-size: 25px;
     text-decoration: underline;
+    margin-top: 50px;
 }
 .img-shop{
     display: flex;
@@ -19,4 +20,17 @@
     border-radius: 10px;
     border: 2px solid rgb(253, 181, 247);
     
+}
+.img-shop img:hover{
+    cursor: pointer;
+}
+.lotus{
+    height: 50px;
+    width: 40px;
+}
+.br{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(116, 115, 115);
+    margin: 50px 0;
 }
