@@ -13,9 +13,9 @@ const topItem = (props) =>
                     <img src={lotus} className="lotus"></img>
                 </div>
                 <div className="img-shop">
-                    <img src={props.img}></img>
-                    <img src={props.img}></img>
-                    <img src={props.img}></img>
+                    <div className="border"><img src={props.img}></img></div>
+                    <div className="border"><img src={props.img}></img></div>
+                    <div className="border"><img src={props.img}></img></div>
                 </div>
                 <div className='br'></div>
             </div>
