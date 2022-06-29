@@ -8,10 +8,11 @@
 }
 .header .about{
   -top: 10px;
-  height: 500px;
+  height: 350px;
   width: 97%;
   margin: auto;
-  background-color: blueviolet;
+  background-image: url(../../assets/ba.jpg);
+  background-size: cover;
 }
 section{
   height: auto;
