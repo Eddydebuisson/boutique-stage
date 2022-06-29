@@ -1,5 +1,6 @@
 import './Panier.css';
-
+import Nav from "../component/Nav/Nav";
+import Footer from "../component/Footer/Footer";
 
 const Panier = () =>
 {

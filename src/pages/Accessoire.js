@@ -1,3 +1,5 @@
+import Nav from "../component/Nav/Nav";
+import Footer from "../component/Footer/Footer";
 import './Accessoire.css';
 
 
