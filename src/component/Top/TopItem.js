@@ -1,4 +1,4 @@
-import './Topitem.css'
+import './TopItem.css'
 import lotus from '../../assets/lotus.png'
 
 const topItem = (props) =>{
