@@ -23,6 +23,9 @@
 }
 .img-shop img:hover{
     cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(183, 53, 172);
 }
 .lotus{
     height: 40px;
