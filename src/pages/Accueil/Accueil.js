@@ -1,11 +1,11 @@
 
-import Nav from "../component/Nav/Nav";
-import Footer from "../component/Footer/Footer";
-import TopItem from "../component/Top/TopItem";
-import About from "../component/About/About.js";
-import Mif from "../assets/MIF.png"
-import Handmade from "../assets/fait-main.png"
-import Domicile from "../assets/domicile.png"
+import Nav from "../../component/Nav/Nav";
+import Footer from "../../component/Footer/Footer";
+import TopItem from "../../component/Top/TopItem";
+import About from "../../component/About/About.js";
+import Mif from "../../assets/MIF.png"
+import Handmade from "../../assets/fait-main.png"
+import Domicile from "../../assets/domicile.png"
 import './Accueil.css'
 
 
