@@ -35,15 +35,11 @@
     src: url(../../font/Floane-Bold.otf);
   }
 
-
   .footer {
     display: flex;
     width: 100%;
     height: 100px;
-    /* position: fixed; */
     bottom: 0;
-    background-color: transparent; 
-    /* background-color: blue; */
     transition: 1s;
     animation: slide_down 0.5s ease-out;
     z-index: 100;

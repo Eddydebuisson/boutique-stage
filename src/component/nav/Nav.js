@@ -22,9 +22,7 @@ const Nav = () =>
                         <li><NavLink to="/Tshirt" className='link-item'>T-Shirt</NavLink></li>
                         <li><NavLink to="/Pull" className='link-item'>Pull</NavLink></li>
                         <li><NavLink to="/Enfant" className='link-item'>UNIVERS ENFANT</NavLink></li>
-                        <li><NavLink to="/Accessoire" className='link-item'>Accessoires</NavLink>
-                        </li>
-
+                        <li><NavLink to="/Accessoire" className='link-item'>Accessoires</NavLink></li>
                     </ul>
 
                     <NavLink to="/" className='right-item'>Recherche</NavLink>
