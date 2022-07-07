@@ -29,7 +29,7 @@
     display: block;
     width: 100%;
     height: auto;
-    position: fixed;
+    position: sticky;
     top: 0;
     /* background-color: transparent; */
     transition: 1s;
