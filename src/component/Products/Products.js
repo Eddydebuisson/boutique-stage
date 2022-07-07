@@ -22,7 +22,7 @@ return (
             {posts && posts.map( p => {
                 return (
     <li class="product-item">
-        <a href="https://www.cupcom.com.br" target="_blank" class="product-link">
+        <a href="" target="_blank" class="product-link">
             <figure class="product-info">
                 <div class="product-info-img">
                     <img src="https://www.petit-bateau.fr/dw/image/v2/BCKL_PRD/on/demandware.static/-/Sites-PB_master/default/dw2d377f7a/PB/5625705F1.jpg?sw=1390&sh=1622&sm=fit" alt="description image"/>
