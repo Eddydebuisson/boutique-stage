@@ -18,18 +18,16 @@ const Nav = () =>
                     <NavLink to="/" className='brand'><img src={Logo} /></NavLink>
                     <ul className='nav-links'>
                         <li><NavLink to="/" className='link-item'>Accueil</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Eco-Responsable</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>T-Shirt</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Pull</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>UNIVERS ENFANT</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Accessoires</NavLink>
-                        </li>
-
+                        <li><NavLink to="/Ecoresponsable" className='link-item'>Eco-Responsable</NavLink></li>
+                        <li><NavLink to="/Tshirt" className='link-item'>T-Shirt</NavLink></li>
+                        <li><NavLink to="/Pull" className='link-item'>Pull</NavLink></li>
+                        <li><NavLink to="/Enfant" className='link-item'>UNIVERS ENFANT</NavLink></li>
+                        <li><NavLink to="/Accessoire" className='link-item'>Accessoires</NavLink></li>
                     </ul>
 
                     <NavLink to="/" className='right-item'>Recherche</NavLink>
                     <NavLink to="/" className='right-item'>Profil</NavLink>
-                    <NavLink to="/" className='right-item'>Panier</NavLink>
+                    <NavLink to="/Panier" className='right-item'>Panier</NavLink>
 
                 </div>
                 <div className='navBottom'></div>
@@ -39,18 +37,18 @@ const Nav = () =>
                     <NavLink to="/" className='brand'></NavLink>
                     <ul className='nav-links'>
                         <li><NavLink to="/" className='link-item'>Accueil</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Eco-Responsable</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>T-Shirt</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Pull</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>UNIVERS ENFANT</NavLink></li>
-                        <li><NavLink to="/" className='link-item'>Accessoires</NavLink></li>
+                        <li><NavLink to="/Ecoresponsable" className='link-item'>Eco-Responsable</NavLink></li>
+                        <li><NavLink to="/Tshirt" className='link-item'>T-Shirt</NavLink></li>
+                        <li><NavLink to="/Pull" className='link-item'>Pull</NavLink></li>
+                        <li><NavLink to="/Enfant" className='link-item'>UNIVERS ENFANT</NavLink></li>
+                        <li><NavLink to="/Accessoire" className='link-item'>Accessoires</NavLink></li>
 
 
                     </ul>
 
                     <NavLink to="/" className='right-item'>Recherche</NavLink>
                     <NavLink to="/" className='right-item'>Profil</NavLink>
-                    <NavLink to="/" className='right-item'>Panier </NavLink>
+                    <NavLink to="/Panier" className='right-item'>Panier </NavLink>
                 </nav>
 
 
