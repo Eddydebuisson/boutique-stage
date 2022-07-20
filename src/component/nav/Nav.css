@@ -205,7 +205,6 @@
     .bm-menu-wrap {
       position: fixed;
       height: 100%;
- 
     }
  
     /* General sidebar styles */
@@ -222,7 +221,7 @@
  
     /* Wrapper for item list */
     .bm-item-list {
-      color: #b8b7ad;
+      color: #a5980c;
       padding: 0.8em;
     }
  
@@ -242,4 +241,38 @@
       align-items: flex-start;
       flex-direction: column;
     }
+  }
+
+  #menu {
+    cursor: pointer;
+  }
+  #menu ul {
+    position: absolute;
+    margin: 0;
+    padding: 0.25em;
+    min-width: 5em;
+    width: auto;
+    border: 1px solid rgb(17, 19, 20);
+    list-style: none;
+    background: #ffffff;
+  }
+  #menu li {
+    position: relative;
+    padding: 0.25em;
+    padding-right: 2em;
+    background: #fefefe;
+    margin-left: auto;
+    color: black;
+  }
+  #menu ul {
+    left: -9999em;
+    margin-top: 2em;
+    color: black;
+  }
+  #menu li:hover{
+    color: rgb(218, 74, 141);
+  }
+  #menu li:hover > ul {
+    top: 0;
+    left: 0;
   }

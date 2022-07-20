@@ -1,8 +1,8 @@
 import './Ecoresponsable.css';
-import Nav from "../component/Nav/Nav";
-import Footer from "../component/Footer/Footer";
-import Products from '../component/Products/Products';
-import lotus from  '../assets/lotus.png'
+import Nav from "../../component/Nav/Nav";
+import Footer from "../../component/Footer/Footer";
+import ProductsByCategories from '../../component/ProductsByCategories/ProductsByCategories';
+import lotus from  '../../assets/lotus.png';
 
 const Ecoresponsable = () =>
 {
@@ -15,7 +15,7 @@ const Ecoresponsable = () =>
       <h1>Eco-Responsable</h1>
       <img src={lotus}></img>
       </div>
-      <Products />
+      <ProductsByCategories />
       <Footer />
     </div>
 

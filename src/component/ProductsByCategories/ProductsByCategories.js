@@ -1,9 +1,8 @@
-import './Products.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from "react-router-dom";
 
-export default function Products() {
+export default function ProductsByCatergories() {
     const [posts, setPosts] = useState(null);
 
     useEffect( () => {

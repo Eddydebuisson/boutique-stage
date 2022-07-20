@@ -1,8 +1,8 @@
-import Nav from "../component/Nav/Nav";
-import Footer from "../component/Footer/Footer";
+import Nav from "../../component/Nav/Nav";
+import Footer from "../../component/Footer/Footer";
 import './Accessoire.css';
-import lotus from '../assets/lotus.png'
-import Products from "../component/Products/Products";
+import lotus from  '../../assets/lotus.png';
+import ProductsByCategories from "../../component/ProductsByCategories/ProductsByCategories";
 
 
 const Accessoire = () =>
@@ -16,7 +16,7 @@ const Accessoire = () =>
       <h1>Accessoire</h1>
       <img src={lotus}/>
       </div>
-      <Products/>
+      <ProductsByCategories/>
       <Footer />
     </div>
 
